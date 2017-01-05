@@ -1,0 +1,14 @@
+<main>
+  <table ng-table="app.tableParams" class="table">
+    <tr ng-repeat="contact in $data">
+        <td title="'Name'" sortable="'firstName'">
+            {{contact.firstName}} {{contact.lastName}}</td>
+        <td title="'Title'" sortable="'title'">
+            {{contact.title}}</td>
+        <td title="'Outlet'" sortable="'outlet'">
+            {{contact.outlet}}</td>
+        <td title="'Profile'" sortable="'profile'">
+            {{contact.profile}}</td>
+    </tr>
+  </table>
+</main>
