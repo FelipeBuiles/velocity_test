@@ -1,6 +1,11 @@
 #Display Contacts/Outlets Coding Exercise
 For this exercise, you will create a web page that will read in and display a collection of Media Contacts and thier Outlets. 
 
+##Running
+Install dependencies with `npm run i`
+Run a development server with `npm start`
+Build a distribution version for production with `npm run build`
+
 ##Requirements
 The following requirements apply:
 
